@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title> Farmer Profile </title>
+		<link rel="stylesheet" href="farmer_style.css">
+
+		<meta charset="UTF-8">
+		<meta name="description" content="profile page">
+		<meta name="keywords" content="farmer profile">
+
+	</head>
+	<body>
+		<div class="nav">
+			<div> Your Profile </div>
+			<ul>
+				<li><a href="farmer_home.html">Home</a></li>
+				<li><a href="product.html">Sell Product </a></li>
+				<li><a href="farmer_profile.html">My Profile </a></li>
+				<li><a href="index.html">Logout</a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h2> My Profile </h2>
+			<form action="farmer_profile1.php" method="POST">
+				<label>Enter User Id : </label> <br> 
+				<input type = "text" name="username" placeholder="Enter username " required><br><br>
+
+				<input type="submit" name="submit" id = "submit" value="View Profile ! ">
+			</form>
+		</div>
+
+	</body>
+</html>

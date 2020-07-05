@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title> Sell Product</title>
+	<link rel="stylesheet" href="farmer_style.css">
+
+		<meta charset="UTF-8">
+		<meta name="description" content="sell product">
+		<meta name="keywords" content="farmer,sell product">
+</head>
+<body>
+	<div class="nav">
+		<div>Farmers </div>
+		<ul>
+			<li><a href="farmer_home.html">Home</a></li>
+			<li><a href="product.html">Sell Product </a></li>
+			<li><a href="farmer_profile.html">My Profile </a></li>
+			<li><a href="index.html">Logout</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+			<h2> Sell Product </h2>
+			<form action="product.php" method="POST">
+			
+			
+			<div>
+				<label>Seller Name : </label>	
+			<input type="text" name="name" placeholder="Enter your Name :" id="prod_name" required><br><br>
+			</div>
+
+			<div>
+				<label>Product Name : </label>	
+			<input type="text" name="prod_name" placeholder="Product Name" id="name" required><br><br>
+			</div>
+
+			<div>
+				<label>UserId : </label>	
+			<input type="text" name="userid" placeholder="enter user id " id="userid" required><br><br>
+			</div>
+
+			<div>
+				<label>Upload Product Image :</label>
+  	  			<input type="file" name="image" placeholder="insert image of crop:" id="image" required><br><br>
+			</div>
+			
+			<div>
+				<label>Product Quantity : </label>	
+			<input type="text" name="prod_qty" placeholder="enter qty in kg" id="prod_qty" required><br><br>
+			</div>
+			
+			<div>
+				<label>Price per kg : </label>	
+			<input type="text" name="prod_price" placeholder="price of product in kg" id="prod_price" required><br><br>
+			</div>
+
+		
+		<input type="submit" value= "Submit" >
+	</form>
+	</div>
+</body>
+</html>		

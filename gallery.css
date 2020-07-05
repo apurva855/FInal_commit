@@ -1,0 +1,16 @@
+.box{
+	display: block;
+	float: left;
+	width: 20%;
+	padding: 10px;
+	padding-left: 10px;
+}
+main{
+	margin-left: 120px;
+}
+img{
+	width:270px;
+	height: 270px;
+	border-radius: 5px;
+	padding: 10px;
+}

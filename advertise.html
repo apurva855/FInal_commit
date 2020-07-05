@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title> Add Product</title>
+	<link rel="stylesheet" href="customer_style.css">
+
+		<meta charset="UTF-8">
+		<meta name="description" content="add product">
+		<meta name="keywords" content="customer,add product">
+</head>
+<body>
+	<div class="nav">
+		<div>Customer </div>
+		<ul>
+			<li><a href="customer_home.html">Home</a></li>
+			<li><a href="advertise.html">Crop Advertisement </a></li>
+			<li><a href="customer_profile.html">My Profile </a></li>
+			<li><a href="index.html">Logout</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+			<h2> Post Advertisement </h2>
+			<form action="customer.php" method="POST">
+			
+			<div>
+				<label> Name : </label>	
+			<input type="text" name="name" placeholder="Enter your Name" id="name" required><br><br>
+			</div>
+
+			<div>
+				<label>crop name : </label>	
+			<input type="text" name="crop_name" placeholder="Enter name of crop" id="crop_name" required><br><br>
+			</div>
+
+			<div>
+				<label>Contact : </label>	
+			<input type="text" name="contact" placeholder="enter contact no. " id="contact" required><br><br>
+			</div>
+
+			
+			<div>
+				<label>Required Quantity : </label>	
+			<input type="text" name="crop_qty" placeholder="Required crop qty in kg" id="crop_qty" required><br><br>
+			</div>
+
+		
+		<input type="submit" value= "Submit" >
+	</form>
+	</div>
+</body>
+</html>		

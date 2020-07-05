@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title> Contact Us </title>
+		<link rel="stylesheet" href="style.css">
+
+		<meta charset="UTF-8">
+		<meta name="description" content="Contact page">
+		<meta name="keywords" content="Digital Farmers,home">
+
+	</head>
+	<body>
+		<div class="nav">
+			<div>Digital Farmer </div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	
+
+		<div class="contact-content">
+			<h1> Contact Us </h1>
+			<form action="contact.php" method="POST">
+			
+			<div>
+				<label>User Name : </label>	
+			<input type = "text" name="user_name" id="user_name" placeholder="enter user name" required>
+			<br><br>
+		</div>
+
+		<div>
+		<label>Email : </label>	
+			<input type = "text" name="user_email" id="user_email" placeholder="enter your email id " required>
+			<br><br>
+		</div>
+
+		<div>
+		<label>Message : </label>	
+			<textarea rows=4 name="user_message" id="user_message" placeholder="enter your message here..." required></textarea>
+<br><br>
+		</div>
+
+		<input type="submit" value= "Submit" >
+	</form>
+			
+		</div>
+	</body>
+</html>
